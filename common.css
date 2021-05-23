@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 
-html {
+/* html {
   scroll-behavior: smooth;
   cursor: url(https://github.com/PulkitSinghDev/PulkitSinghDev.github.io/blob/main/hi-from-pulkit-removebg-preview.cur),
     auto;
-}
-body {
-  /* background-color: aqua; */
-}
+} */
 
+body {
+  overflow: hidden;
+}
 /* custom scroll bar */
 ::-webkit-scrollbar {
   width: 10px;

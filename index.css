@@ -31,6 +31,7 @@ section .title::after {
 /* navbar styling */
 .navbar {
   position: fixed;
+  overflow-x: hidden;
   width: 100%;
   z-index: 999;
   padding: 30px 0;
@@ -42,6 +43,7 @@ section .title::after {
   background: crimson;
 }
 .navbar .max-width {
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -120,6 +122,7 @@ section .title::after {
   background-color: black;
   height: 100vh;
   color: #fff;
+  width: 100%;
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
@@ -555,6 +558,7 @@ footer span a:hover {
 
 @media (max-width: 991px) {
   .max-width {
+    width: 100%;
     padding: 0 50px;
   }
 }
