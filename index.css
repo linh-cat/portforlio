@@ -129,7 +129,7 @@ section .title::after {
   font-family: "Ubuntu", sans-serif;
 }
 .home .max-width {
-  margin: auto 0 auto 30px;
+  margin: auto 0 auto 0;
 }
 .home .home-content .text-1 {
   font-size: 27px;
